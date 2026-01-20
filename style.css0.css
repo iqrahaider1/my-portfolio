@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f2f5f9;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(135deg, #d63384, #6f42c1);
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  font-size: 36px;
+}
+
+header p {
+  margin-top: 8px;
+  font-size: 16px;
+}
+
+.card {
+  background: white;
+  width: 80%;
+  max-width: 800px;
+  margin: 25px auto;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.card h2 {
+  margin-bottom: 15px;
+  color: #6f42c1;
+}
+
+.skills span {
+  display: inline-block;
+  background: #f0e6ff;
+  color: #6f42c1;
+  padding: 8px 14px;
+  border-radius: 20px;
+  margin: 5px;
+  font-size: 14px;
+}
+
+ul li {
+  margin-left: 18px;
+  margin-bottom: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  color: #777;
+  font-size: 14px;
+}
+#darkBtn {
+  margin-top: 15px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  background: white;
+  color: #333;
+  font-weight: bold;
+}
+
+.dark {
+  background: #121212;
+  color: #eaeaea;
+}
+
+.dark header {
+  background: linear-gradient(135deg, #000000, #333333);
+}
+
+.dark .card {
+  background: #1e1e1e;
+  color: #eaeaea;
+}
+
+.dark footer {
+  color: #aaa;
+}
